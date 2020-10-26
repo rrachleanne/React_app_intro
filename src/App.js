@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import HappyMessage from "./msg"
+import Button from 'react-bootstrap/Button';
+import Jumbotron from 'react-bootstrap/Jumbotron'
+// const App = () =>{
+//     return <>
+//    < HappyMessage />
+//     </>
+// };
+
+
+function ButtonMessage() {
+    let message = document.getElementById("wrapper");
+    message.innerHTML = HappyMessage();
 }
 
-export default App;
+const App = () => {
+    
+    return <div>
+<Jumbotron >
+        <div className="container" >
+            <h1 id="wrapper">
+                {HappyMessage()}
+            </h1>
+        </div>        
+
+  
+        <Button onClick={ButtonMessage} variant="primary">New Quote</Button>{''}
+    </Jumbotron>
+    </div>
+}
+
+
+export default App

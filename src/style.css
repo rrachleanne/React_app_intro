@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    
+    }
+
+ body {
+  
+}
+
+.tester{
+    background-image: url('background.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.return{
+ 
+    background-color: white;
+}
+
+
+
+
+
