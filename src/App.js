@@ -19,7 +19,7 @@ const App = () => {
     
     return <div>
         <div class="header"></div>
-            <div class="bg">
+            <div class="wrap-container">
                 <Jumbotron >
                      <div className="container" >
                         <h1 id="wrapper">
