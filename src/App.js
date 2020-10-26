@@ -18,16 +18,19 @@ function ButtonMessage() {
 const App = () => {
     
     return <div>
-<Jumbotron >
-        <div className="container" >
-            <h1 id="wrapper">
-                {HappyMessage()}
-            </h1>
-        </div>        
-
-  
-        <Button onClick={ButtonMessage} variant="primary">New Quote</Button>{''}
-    </Jumbotron>
+        <div class="header"></div>
+            <div class="bg">
+                <Jumbotron >
+                     <div className="container" >
+                        <h1 id="wrapper">
+                        {HappyMessage()}
+                        </h1>
+                    </div>  
+               </Jumbotron>     
+            </div>      
+        <div class="buttons">
+            <Button onClick={ButtonMessage} variant="primary">New Quote</Button>{''}
+            </div>
     </div>
 }
 

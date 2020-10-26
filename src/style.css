@@ -8,20 +8,29 @@
     }
 
  body {
-  
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.tester{
+/* .tester{
     background-image: url('background.jpg'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 500px;
-}
+} */
 
-.return{
- 
-    background-color: white;
+.jumbotron{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-color: grey;
+    
+    /* border-radius: 2px solid black; */
 }
 
 
