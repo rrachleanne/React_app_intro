@@ -29,7 +29,7 @@ const App = () => {
                </Jumbotron>     
             </div>      
         <div class="buttons">
-            <Button onClick={ButtonMessage} variant="primary">New Quote</Button>{''}
+            <Button onClick={ButtonMessage} variant="outline-secondary">New Quote</Button>{''}
             </div>
     </div>
 }
